@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react';
-import MyComponent, { testFunction } from './MyComponent';
+import YourComponent, { testFunction } from './YourComponent';
 
 test('my component\'s test', () => {
-  render(<MyComponent />);
+  render(<YourComponent />);
   testFunction();
 });
